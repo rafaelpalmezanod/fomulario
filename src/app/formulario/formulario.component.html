@@ -1,0 +1,21 @@
+
+<section class="fomulario">
+    <form action="">
+        <label for="name"> Nombre</label>
+        <input type="text" name="nombre" placeholder="Ingresa tu nombre" [(ngModel)]="nombre" >
+    
+        <label for="name"> Apellido</label>
+        <input type="text" name="apellido" placeholder="Ingresa tu Apellido" [(ngModel)]="apellido">
+    
+    
+        <label for="name"> Email</label>
+        <input type="text" name="email" placeholder="Ingresa tu Email">
+    
+        <button (click)="enviar()">Registrar</button>
+
+
+    
+    </form>
+    <app-registro [nombre]="nombreenviado" ></app-registro>
+</section>
+
