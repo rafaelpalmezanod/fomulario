@@ -20,6 +20,9 @@ export class FormularioComponent {
 
     enviar(){
       this.nombreenviado=this.nombre
+      this.apellidoenviado=this.apellido
+      this.emailenviado=this.email
+
     }
 
 }

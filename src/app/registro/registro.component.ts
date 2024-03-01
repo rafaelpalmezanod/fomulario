@@ -11,7 +11,7 @@ import { Input } from '@angular/core';
 })
 export class RegistroComponent {
   @Input()nombre = ""
-  @Input()apelldo = ""
+  @Input()apellido = ""
   @Input()email= ""
 
   

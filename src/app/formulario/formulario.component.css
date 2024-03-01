@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.fomulario {
+    border: 1px solid red;
+    width: 188px;
+    height: 205px;
+    /* gap: 22px; */
+    display: grid;
+    padding: 8px;
+}
+h1{
+    text-align: center;
+}
+
+section.registro{
+    width: 100px;
+    display: grid;
+    border: 1px solid red;
+
+}
