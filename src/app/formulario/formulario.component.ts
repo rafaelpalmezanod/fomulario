@@ -25,6 +25,14 @@ export class FormularioComponent {
 
     }
 
+    recibirdatos(Datos:any){
+      this.nombre = Datos.nombre,
+      this.apellido = Datos.apellido,
+      this.email = Datos.email
+
+      
+    }
+
 }
  
 

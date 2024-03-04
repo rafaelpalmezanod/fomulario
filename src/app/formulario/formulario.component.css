@@ -1,31 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body{
-    display: flex;
-    flex-direction: column;
+    border: 1px solid black ;
     justify-content: center;
     align-items: center;
-
-}
-
-section.fomulario {
-    border: 1px solid red;
-    width: 188px;
-    height: 205px;
-    /* gap: 22px; */
-    display: grid;
-    padding: 8px;
-}
-h1{
     text-align: center;
 }
-
-section.registro{
-    width: 100px;
-    display: grid;
-    border: 1px solid red;
-
+.fomulario{
+    border: 1px solid black ;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
 }

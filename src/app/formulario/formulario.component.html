@@ -1,7 +1,7 @@
 <body>
 
     <section class="fomulario">
-        <form action="">
+        <form>
             <h1>formulario</h1>
             <label for="name"> Nombre</label>
             <input type="text" name="nombre" placeholder="Ingresa tu nombre" [(ngModel)]="nombre" >
@@ -13,17 +13,16 @@
             <label for="name"> Email</label>
             <input type="text" name="email" placeholder="Ingresa tu Email" [(ngModel)]="email">
         
-            <button (click)="enviar()">Registrar</button>
-    
-    
-        
+            <button type="reset" (click)="enviar()">Registrar</button>
         </form>
      
     </section>
     <section class="registro">
-        <app-registro [nombre]="nombreenviado" 
-                    [apellido]="apellidoenviado"
-                    [email]="emailenviado"
+        <app-registro 
+        [nombre]="nombreenviado"  
+        [apellido]="apellidoenviado"
+        [email]="emailenviado"
+        (enviarDatosPadres)="recibirdatos($event)"
         ></app-registro>
      </section>
 
