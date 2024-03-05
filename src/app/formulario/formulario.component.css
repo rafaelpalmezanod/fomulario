@@ -1,13 +1,51 @@
-
-body{
-    border: 1px solid black ;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.fomulario{
-    border: 1px solid black ;
-    height: 100px;
+body {
+    font-family: sans-serif; 
+    margin: 0; 
+    padding: 20px; 
     display: flex;
+    justify-content: center;
     flex-direction: column;
-}
+    width: 500px;
+    margin: auto;
+    
+  }
+  
+  .fomulario {
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    padding: 20px; 
+    margin: 10px 0; 
+  }
+  
+  .fomulario h1 {
+    text-align: center; 
+    margin-bottom: 15px; 
+  }
+  
+  .fomulario label {
+    display: block;
+    margin-bottom: 5px; 
+  }
+  
+  .fomulario input[type="text"] {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 3px; 
+  }
+  
+  .fomulario button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  .fomulario button:hover {
+    background-color: #3e8e41; 
+  }
+  
+ 
+  
